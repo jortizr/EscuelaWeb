@@ -16,8 +16,27 @@
                 <img
                 src="./pics/GP_StandingAlone_1920x1080.jpg"
                 alt="imagen de league of leguends game"
-                />
+                width="250"/>
+                <!-- etiqueta de descripcion a una imagen -->
+                <figcaption>imagen de league of legends</figcaption>
             </figure>
+
+        </section>
+
+        <section>
+            <video src="./videos/London_Grammar_Wasting_My_Young_Years_Sub1080p.mp4#t=10,60" 
+            controls preload="auto" width="700"></video>
+            <!-- para controlar en que momento inicia el video se usa al final de
+            src de la cadena de texto se le agrega #t=segBegin,segEnd -->
+            <!-- preload es un atributo ayuda a renderizarse cuando carga
+            la pagina en el navegador-->
+        </section>
+<!-- otra forma de poner varios source de videos cuando poseemos varios
+formatos por si el navegador no los renderiza -->
+        <section>
+            <video controls preload="auto" width="700">
+                <source src="./videos/London_Grammar_Wasting_My_Young_Years_Sub1080p.mp4"/>
+            </video>
 
         </section>
     </main>
