@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <!-- primera forma de hacer calendarios -->
+    <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora"><!-- input hora -->
+        </label>
+
+        <label for="dia">
+            <span>Dia</span>
+            <input type="date" id="dia" name="dia"><!-- input dia -->
+        </label>
+
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana"><!-- input semana -->
+        </label>
+
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes"><!-- input mes -->
+        </label>
+
+        <input type="submit"/><!-- el input de tipo submit es un boton 
+        de enviar informacion obtenida de los campos, al pulsar es 
+    enviada a la url de nuestro navegador y se refresca la pagina y campos -->
+    </form>
+
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
