@@ -1,0 +1,35 @@
+img{
+    width: 250px;
+}
+img:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+h1 {
+    font-size: 55px;
+    font-family: sans-serif;
+    text-align: center;
+    color: darkcyan;
+}
+
+li {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cat {
+    color: rgb(248, 0, 116);
+    font-weight: bold;
+}
+
+article{
+    font-size: 30px;
+    text-align: center;
+    color: #ec731e;
+    font-style: italic;
+}

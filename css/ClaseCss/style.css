@@ -1,0 +1,23 @@
+
+/* 
+agregar el estilo por etiquetas
+*/
+p {
+    color: brown;
+    font-size: 25px;
+}
+
+/* usando una clase para
+etiquetar los estilos*/
+
+.parrafo {
+    color: aqua;
+}
+
+/* usando el id en las 
+etiquetas */
+#texto {
+    color: blueviolet;
+    font-size: 45px;
+}
+
