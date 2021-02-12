@@ -1,0 +1,38 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;/* atributo para quitar el decorado del elemento */
+    padding-left: 0;
+    background-color: darkcyan;
+
+}
+
+.main-nav_item{
+    display: inline-block;/* orienta en horizontal el orden de elementos */
+}
+
+.main-nav_item a{/* apunta a un elemento especifico dentro de un bloque */
+    color: white;
+    padding: 8px;
+    border-radius: 2px; /* le da un borde  */
+    text-decoration: none;/* quita el subrayadoo del link */
+}
+/* seudoclases */
+
+/* hover es un efecto que se
+activa cuando se pone el puntero
+sobre el elemento*/
+.main-nav_item a:hover { 
+    color: blue;
+
+}
+
+/* se activa cuado se mantiene 
+el clic */
+.main-nav_item a:active{
+    color:chartreuse;
+}
+/* seudoelementos */
+
+.main-nav_item a::after{
+    content: " | ";
+}
