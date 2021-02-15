@@ -1,0 +1,9 @@
+html {
+    font-size: 75%;
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: inherit;/* herede de su padre cercano, es decir de la etiqueta html 
+    en este caso */
+}
