@@ -1,0 +1,10 @@
+div >p {/* hijo directo del div */
+    color: blue;
+}
+
+/* para aplicarle a todos los parrafos se le aplica al descendiente */
+
+
+div p {
+    color: red;
+}
