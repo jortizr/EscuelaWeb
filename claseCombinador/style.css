@@ -1,0 +1,5 @@
+h2 +p{ /* apliquele el color red a todas las etiquetas
+    parrafo que esten cerca o adyacentes a un h2, seria
+    combinador de hermano cercano*/
+    color: red;
+}
