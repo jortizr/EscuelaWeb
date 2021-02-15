@@ -3,3 +3,9 @@ h2 +p{ /* apliquele el color red a todas las etiquetas
     combinador de hermano cercano*/
     color: red;
 }
+
+/* hermano general, a partir de h3 y todos los parrafos desde ese h3
+se convierten en hermanos generales para los parrafos */
+h3 ~ p{
+    color: aqua;
+}
