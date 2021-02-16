@@ -1,0 +1,20 @@
+*{/* reseteo de los valores determinados del navegador */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {/* este porcentaje ayuda a resetear el valor determindao
+    de la fuente para que se pueda calcular los rem en una medida
+    estandar como los pixeles*/
+    font-size: 62.5%;
+}
+
+
+p {
+    font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
+}
