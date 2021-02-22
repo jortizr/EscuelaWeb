@@ -1,0 +1,71 @@
+* {
+    /* se elimina los parametro default del navegador */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {/* SE especifica las dimensiones de caja, el background y la alineacion de cajas con
+    el display inline block */
+    width: 100vw;
+    height: 55px;
+    background-color: bisque;
+    display: inline-block;
+}
+.logo {/* dimension del logo */
+    width: 50px;
+    height: 45px;
+}
+.logo, .navegacion, .nav-ul, .nav-ul li{ /* aplico el display a las clases */
+    display: inline-block;
+    margin: 5px;
+}
+.logo img{ 
+    width: 45px;
+    height: 45px;
+}
+.nav-ul{
+    list-style: none;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navegacion{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.sidebar {
+    background-color: cadetblue;
+    width: 25vw;
+    height: 90vh;
+    display: inline-block;
+}
+.aside-div-left{
+    background-color: crimson;
+    width: 21vw;
+    height: 15vh;
+    margin: 1.9vw;
+    border-radius: 25px;
+    display: block;
+}
+.content {
+    background-color: darkgray;
+    width: 75vw;
+    height: 90vh;
+    position: absolute;
+    top: 55px;
+    left: 25vw;
+    
+}
+footer {
+    background-color: crimson;
+    text-align: center;
+    width: 100vw;
+    height: 38px;
+    position: absolute;
+    top: 95.9vh;
+}
+
+
