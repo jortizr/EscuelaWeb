@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* flex-direction: column ; este nos ayuda a cambiar la direccion en como se 
+    organiza los divs en el contenedor padre */
+    /* flex-wrap: wrap;   hace que los objetos se reorganicen a medida que 
+    el contendor cambia de tamaño*/
+    justify-content: center; /* lo que hace es alinear el contenido horizontal
+     el parametro space-around ayuda a que se distribuya los espacios de los 
+     elementos*/
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+.box2 {
+    background-color: brown;
+}
+.box3 {
+    background-color: chartreuse;
+}
+.box4 {
+    background-color: chocolate;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: cyan;
+}
