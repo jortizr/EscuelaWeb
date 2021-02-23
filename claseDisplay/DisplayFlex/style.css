@@ -3,47 +3,54 @@
     margin: 0;
     padding: 0;
 }
-
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* porcentaje para establecer el tamaño del font en la medida rem */
 }
 
 body {
     font-size: 1.6rem;
 }
-
 .container{
     border: 0.3rem solid black;
     display: flex;
+    /* align-items: baseline; alinea los elementos */
     /* flex-direction: column ; este nos ayuda a cambiar la direccion en como se 
     organiza los divs en el contenedor padre */
     /* flex-wrap: wrap;   hace que los objetos se reorganicen a medida que 
     el contendor cambia de tamaño*/
-    justify-content: center; /* lo que hace es alinear el contenido horizontal
+    /* justify-content: center;  lo que hace es alinear el contenido horizontal
      el parametro space-around ayuda a que se distribuya los espacios de los 
      elementos*/
+    flex-wrap: wrap;
 }
-
 .box {
-    width: 10rem;
+    
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
-
 .box1 {
     background-color: blueviolet;
+    /* order: 2;  con la propiedad se puede dar orden a los elementos*/
+    flex-grow: 1;
 }
 .box2 {
     background-color: brown;
+    flex-grow: 1; /* hace que el elemento ocupe el espacion sobrante
+    de la pantalla*/
 }
 .box3 {
     background-color: chartreuse;
+    
 }
 .box4 {
     background-color: chocolate;
 }
 .box5 {
     background-color: crimson;
+
 }
 .box6 {
     background-color: cyan;
+    
 }
