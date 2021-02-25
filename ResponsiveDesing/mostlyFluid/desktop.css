@@ -1,0 +1,21 @@
+.container{/* al contenedior le aplicamos un limite de 
+    flexibilidad para que no se agrande en pantallas
+    enormes            */
+    width: 800px;
+    margin-left: auto;/* nos dejara espacios a los lados
+    cuando las dimensiones superen los 800px */
+    margin-right: auto;
+}
+.c1 {
+    width: 60%;
+}
+.c2 {
+    width: 40%;
+}
+.c3, .c4 {
+    width: 33%;
+}
+
+.c5 {
+    width: 34%
+}
